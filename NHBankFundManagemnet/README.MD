@@ -1,5 +1,9 @@
 # NHBANK Open API 예금주조회 서비스 활용 Application
 
+## Application 실행 영상
+
+![img](https://user-images.githubusercontent.com/77099686/129597655-3fee305a-5500-421d-887f-c2226fbe1913.gif)
+
 ## NHBANKFundManagemnet 프로젝트 Hierarchy(MVVM)
 <pre>
   .

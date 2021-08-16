@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20FE83C8A97D5AE24E9DDF6A /* Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60752E9C1682ACAD7B44DBE /* Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework */; };
+		59816CDF40910DC96FD8CE44 /* Pods_NHBankFundManagemnetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672BEF1DBC0B2974E77EDA98 /* Pods_NHBankFundManagemnetTests.framework */; };
+		86B3065226CA6DA900AE62F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3065126CA6DA900AE62F0 /* AppDelegate.swift */; };
+		86B3065426CA6DA900AE62F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3065326CA6DA900AE62F0 /* SceneDelegate.swift */; };
+		86B3065626CA6DA900AE62F0 /* InquireDepositorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3065526CA6DA900AE62F0 /* InquireDepositorViewController.swift */; };
+		86B3065926CA6DA900AE62F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3065726CA6DA900AE62F0 /* Main.storyboard */; };
+		86B3065E26CA6DAA00AE62F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B3065C26CA6DAA00AE62F0 /* LaunchScreen.storyboard */; };
+		86B3066926CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3066826CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift */; };
+		86B3067426CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3067326CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift */; };
+		86B3068A26CA721400AE62F0 /* InquireDepositorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3068926CA721400AE62F0 /* InquireDepositorModel.swift */; };
+		86B3068C26CA73E200AE62F0 /* InquireDepositorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3068B26CA73E200AE62F0 /* InquireDepositorViewModel.swift */; };
+		86B3068E26CA755200AE62F0 /* InquireDepositorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3068D26CA755200AE62F0 /* InquireDepositorService.swift */; };
+		86B3069426CA7B5800AE62F0 /* GifLogoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069326CA7B5800AE62F0 /* GifLogoModel.swift */; };
+		86B3069626CA7BA700AE62F0 /* GifLogoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069526CA7BA700AE62F0 /* GifLogoViewModel.swift */; };
+		86B3069A26CA816F00AE62F0 /* GifLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069926CA816F00AE62F0 /* GifLogoView.swift */; };
+		86B3069C26CA82E800AE62F0 /* GifLogoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069B26CA82E800AE62F0 /* GifLogoService.swift */; };
+		86B306DA26CAA01300AE62F0 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 86B306D926CAA01300AE62F0 /* README.MD */; };
+		86DBB67F26CABAC900A4EDFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DBB67D26CABAC900A4EDFA /* Assets.xcassets */; };
+		86DBB68026CABAC900A4EDFA /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 86DBB67E26CABAC900A4EDFA /* logo.gif */; };
+		EC5313194104C570ABCB07FB /* Pods_NHBankFundManagemnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F9DC69023ACFC2A5F617AA /* Pods_NHBankFundManagemnet.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B3066526CA6DAA00AE62F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B3064626CA6DA900AE62F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B3064D26CA6DA900AE62F0;
+			remoteInfo = NHBankFundManagemnet;
+		};
+		86B3067026CA6DAA00AE62F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B3064626CA6DA900AE62F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B3064D26CA6DA900AE62F0;
+			remoteInfo = NHBankFundManagemnet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A16E587CA897A8D906FA20 /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.release.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		20D67A4BBCE4E6CE1735615F /* Pods-NHBankFundManagemnet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnet.release.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet.release.xcconfig"; sourceTree = "<group>"; };
+		672BEF1DBC0B2974E77EDA98 /* Pods_NHBankFundManagemnetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHBankFundManagemnetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B3064E26CA6DA900AE62F0 /* NHBankFundManagemnet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHBankFundManagemnet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B3065126CA6DA900AE62F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86B3065326CA6DA900AE62F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		86B3065526CA6DA900AE62F0 /* InquireDepositorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireDepositorViewController.swift; sourceTree = "<group>"; };
+		86B3065826CA6DA900AE62F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B3065D26CA6DAA00AE62F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86B3066426CA6DAA00AE62F0 /* NHBankFundManagemnetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHBankFundManagemnetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B3066826CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHBankFundManagemnetTests.swift; sourceTree = "<group>"; };
+		86B3066A26CA6DAA00AE62F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B3066F26CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHBankFundManagemnetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B3067326CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NHBankFundManagemnetUITests.swift; sourceTree = "<group>"; };
+		86B3067526CA6DAA00AE62F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B3068926CA721400AE62F0 /* InquireDepositorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireDepositorModel.swift; sourceTree = "<group>"; };
+		86B3068B26CA73E200AE62F0 /* InquireDepositorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireDepositorViewModel.swift; sourceTree = "<group>"; };
+		86B3068D26CA755200AE62F0 /* InquireDepositorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InquireDepositorService.swift; sourceTree = "<group>"; };
+		86B3069326CA7B5800AE62F0 /* GifLogoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoModel.swift; sourceTree = "<group>"; };
+		86B3069526CA7BA700AE62F0 /* GifLogoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoViewModel.swift; sourceTree = "<group>"; };
+		86B3069926CA816F00AE62F0 /* GifLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoView.swift; sourceTree = "<group>"; };
+		86B3069B26CA82E800AE62F0 /* GifLogoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoService.swift; sourceTree = "<group>"; };
+		86B306D926CAA01300AE62F0 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
+		86B306DD26CAB5EC00AE62F0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DBB67D26CABAC900A4EDFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86DBB67E26CABAC900A4EDFA /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
+		A4F9DC69023ACFC2A5F617AA /* Pods_NHBankFundManagemnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHBankFundManagemnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB10C5C9417BC9B45C99B40 /* Pods-NHBankFundManagemnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnet.debug.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet.debug.xcconfig"; sourceTree = "<group>"; };
+		B2E418332A425C2CC3DA7B2F /* Pods-NHBankFundManagemnetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnetTests.release.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnetTests/Pods-NHBankFundManagemnetTests.release.xcconfig"; sourceTree = "<group>"; };
+		C60752E9C1682ACAD7B44DBE /* Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1F69103D5A1DF2C655E065A /* Pods-NHBankFundManagemnetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnetTests.debug.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnetTests/Pods-NHBankFundManagemnetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF28BE046F636D7EA264225D /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.debug.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B3064B26CA6DA900AE62F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5313194104C570ABCB07FB /* Pods_NHBankFundManagemnet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066126CA6DAA00AE62F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59816CDF40910DC96FD8CE44 /* Pods_NHBankFundManagemnetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066C26CA6DAA00AE62F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20FE83C8A97D5AE24E9DDF6A /* Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3AD981C56647E2DCFA1F38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4F9DC69023ACFC2A5F617AA /* Pods_NHBankFundManagemnet.framework */,
+				C60752E9C1682ACAD7B44DBE /* Pods_NHBankFundManagemnet_NHBankFundManagemnetUITests.framework */,
+				672BEF1DBC0B2974E77EDA98 /* Pods_NHBankFundManagemnetTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		705C0C4E886CD691FC600C39 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB10C5C9417BC9B45C99B40 /* Pods-NHBankFundManagemnet.debug.xcconfig */,
+				20D67A4BBCE4E6CE1735615F /* Pods-NHBankFundManagemnet.release.xcconfig */,
+				FF28BE046F636D7EA264225D /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.debug.xcconfig */,
+				13A16E587CA897A8D906FA20 /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.release.xcconfig */,
+				F1F69103D5A1DF2C655E065A /* Pods-NHBankFundManagemnetTests.debug.xcconfig */,
+				B2E418332A425C2CC3DA7B2F /* Pods-NHBankFundManagemnetTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		86B3064526CA6DA900AE62F0 = {
+			isa = PBXGroup;
+			children = (
+				86B306D926CAA01300AE62F0 /* README.MD */,
+				86B3065026CA6DA900AE62F0 /* NHBankFundManagement */,
+				86B3066726CA6DAA00AE62F0 /* NHBankFundManagementTests */,
+				86B3067226CA6DAA00AE62F0 /* NHBankFundManagementUITests */,
+				86B3064F26CA6DA900AE62F0 /* Products */,
+				705C0C4E886CD691FC600C39 /* Pods */,
+				3C3AD981C56647E2DCFA1F38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		86B3064F26CA6DA900AE62F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B3064E26CA6DA900AE62F0 /* NHBankFundManagemnet.app */,
+				86B3066426CA6DAA00AE62F0 /* NHBankFundManagemnetTests.xctest */,
+				86B3066F26CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B3065026CA6DA900AE62F0 /* NHBankFundManagement */ = {
+			isa = PBXGroup;
+			children = (
+				86DBB67D26CABAC900A4EDFA /* Assets.xcassets */,
+				86DBB67E26CABAC900A4EDFA /* logo.gif */,
+				86B306DD26CAB5EC00AE62F0 /* Info.plist */,
+				86B3068426CA719A00AE62F0 /* Delegates */,
+				86B3068326CA717300AE62F0 /* Storyboards */,
+				86B3068626CA71C200AE62F0 /* Models */,
+				86B3068526CA71B100AE62F0 /* ViewControllers */,
+				86B3068826CA71CF00AE62F0 /* Services */,
+				86B3068726CA71C700AE62F0 /* ViewModels */,
+			);
+			path = NHBankFundManagement;
+			sourceTree = "<group>";
+		};
+		86B3066726CA6DAA00AE62F0 /* NHBankFundManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B3066826CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift */,
+				86B3066A26CA6DAA00AE62F0 /* Info.plist */,
+			);
+			path = NHBankFundManagementTests;
+			sourceTree = "<group>";
+		};
+		86B3067226CA6DAA00AE62F0 /* NHBankFundManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B3067326CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift */,
+				86B3067526CA6DAA00AE62F0 /* Info.plist */,
+			);
+			path = NHBankFundManagementUITests;
+			sourceTree = "<group>";
+		};
+		86B3068326CA717300AE62F0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86B3065726CA6DA900AE62F0 /* Main.storyboard */,
+				86B3065C26CA6DAA00AE62F0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		86B3068426CA719A00AE62F0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				86B3065126CA6DA900AE62F0 /* AppDelegate.swift */,
+				86B3065326CA6DA900AE62F0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		86B3068526CA71B100AE62F0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				86B3065526CA6DA900AE62F0 /* InquireDepositorViewController.swift */,
+				86B3069926CA816F00AE62F0 /* GifLogoView.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		86B3068626CA71C200AE62F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86B3068926CA721400AE62F0 /* InquireDepositorModel.swift */,
+				86B3069326CA7B5800AE62F0 /* GifLogoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86B3068726CA71C700AE62F0 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				86B3068B26CA73E200AE62F0 /* InquireDepositorViewModel.swift */,
+				86B3069526CA7BA700AE62F0 /* GifLogoViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		86B3068826CA71CF00AE62F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				86B3068D26CA755200AE62F0 /* InquireDepositorService.swift */,
+				86B3069B26CA82E800AE62F0 /* GifLogoService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B3064D26CA6DA900AE62F0 /* NHBankFundManagemnet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B3067826CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnet" */;
+			buildPhases = (
+				177F9AD06273D41FCF5375EA /* [CP] Check Pods Manifest.lock */,
+				86B3064A26CA6DA900AE62F0 /* Sources */,
+				86B3064B26CA6DA900AE62F0 /* Frameworks */,
+				86B3064C26CA6DA900AE62F0 /* Resources */,
+				E857022E47766A59E3370EF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHBankFundManagemnet;
+			productName = NHBankFundManagemnet;
+			productReference = 86B3064E26CA6DA900AE62F0 /* NHBankFundManagemnet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B3066326CA6DAA00AE62F0 /* NHBankFundManagemnetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B3067B26CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnetTests" */;
+			buildPhases = (
+				B9649C2248D1E4BB4EABE583 /* [CP] Check Pods Manifest.lock */,
+				86B3066026CA6DAA00AE62F0 /* Sources */,
+				86B3066126CA6DAA00AE62F0 /* Frameworks */,
+				86B3066226CA6DAA00AE62F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B3066626CA6DAA00AE62F0 /* PBXTargetDependency */,
+			);
+			name = NHBankFundManagemnetTests;
+			productName = NHBankFundManagemnetTests;
+			productReference = 86B3066426CA6DAA00AE62F0 /* NHBankFundManagemnetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B3066E26CA6DAA00AE62F0 /* NHBankFundManagemnetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B3067E26CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnetUITests" */;
+			buildPhases = (
+				B16A16DA9B00ECB6B1FC4782 /* [CP] Check Pods Manifest.lock */,
+				86B3066B26CA6DAA00AE62F0 /* Sources */,
+				86B3066C26CA6DAA00AE62F0 /* Frameworks */,
+				86B3066D26CA6DAA00AE62F0 /* Resources */,
+				CDFF1ED65015B843855EAFAA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B3067126CA6DAA00AE62F0 /* PBXTargetDependency */,
+			);
+			name = NHBankFundManagemnetUITests;
+			productName = NHBankFundManagemnetUITests;
+			productReference = 86B3066F26CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B3064626CA6DA900AE62F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					86B3064D26CA6DA900AE62F0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					86B3066326CA6DAA00AE62F0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 86B3064D26CA6DA900AE62F0;
+					};
+					86B3066E26CA6DAA00AE62F0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 86B3064D26CA6DA900AE62F0;
+					};
+				};
+			};
+			buildConfigurationList = 86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B3064526CA6DA900AE62F0;
+			productRefGroup = 86B3064F26CA6DA900AE62F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B3064D26CA6DA900AE62F0 /* NHBankFundManagemnet */,
+				86B3066326CA6DAA00AE62F0 /* NHBankFundManagemnetTests */,
+				86B3066E26CA6DAA00AE62F0 /* NHBankFundManagemnetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B3064C26CA6DA900AE62F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B3065E26CA6DAA00AE62F0 /* LaunchScreen.storyboard in Resources */,
+				86B3065926CA6DA900AE62F0 /* Main.storyboard in Resources */,
+				86DBB68026CABAC900A4EDFA /* logo.gif in Resources */,
+				86DBB67F26CABAC900A4EDFA /* Assets.xcassets in Resources */,
+				86B306DA26CAA01300AE62F0 /* README.MD in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066226CA6DAA00AE62F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066D26CA6DAA00AE62F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		177F9AD06273D41FCF5375EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHBankFundManagemnet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B16A16DA9B00ECB6B1FC4782 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9649C2248D1E4BB4EABE583 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NHBankFundManagemnetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDFF1ED65015B843855EAFAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests/Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E857022E47766A59E3370EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B3064A26CA6DA900AE62F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B3065626CA6DA900AE62F0 /* InquireDepositorViewController.swift in Sources */,
+				86B3069C26CA82E800AE62F0 /* GifLogoService.swift in Sources */,
+				86B3068A26CA721400AE62F0 /* InquireDepositorModel.swift in Sources */,
+				86B3065226CA6DA900AE62F0 /* AppDelegate.swift in Sources */,
+				86B3068E26CA755200AE62F0 /* InquireDepositorService.swift in Sources */,
+				86B3069A26CA816F00AE62F0 /* GifLogoView.swift in Sources */,
+				86B3069626CA7BA700AE62F0 /* GifLogoViewModel.swift in Sources */,
+				86B3065426CA6DA900AE62F0 /* SceneDelegate.swift in Sources */,
+				86B3069426CA7B5800AE62F0 /* GifLogoModel.swift in Sources */,
+				86B3068C26CA73E200AE62F0 /* InquireDepositorViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066026CA6DAA00AE62F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B3066926CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B3066B26CA6DAA00AE62F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B3067426CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B3066626CA6DAA00AE62F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B3064D26CA6DA900AE62F0 /* NHBankFundManagemnet */;
+			targetProxy = 86B3066526CA6DAA00AE62F0 /* PBXContainerItemProxy */;
+		};
+		86B3067126CA6DAA00AE62F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B3064D26CA6DA900AE62F0 /* NHBankFundManagemnet */;
+			targetProxy = 86B3067026CA6DAA00AE62F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86B3065726CA6DA900AE62F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B3065826CA6DA900AE62F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86B3065C26CA6DAA00AE62F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B3065D26CA6DAA00AE62F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86B3067626CA6DAA00AE62F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86B3067726CA6DAA00AE62F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B3067926CA6DAA00AE62F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB10C5C9417BC9B45C99B40 /* Pods-NHBankFundManagemnet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B3067A26CA6DAA00AE62F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D67A4BBCE4E6CE1735615F /* Pods-NHBankFundManagemnet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagement/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86B3067C26CA6DAA00AE62F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F69103D5A1DF2C655E065A /* Pods-NHBankFundManagemnetTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagemnetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHBankFundManagemnet.app/NHBankFundManagemnet";
+			};
+			name = Debug;
+		};
+		86B3067D26CA6DAA00AE62F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2E418332A425C2CC3DA7B2F /* Pods-NHBankFundManagemnetTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagemnetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHBankFundManagemnet.app/NHBankFundManagemnet";
+			};
+			name = Release;
+		};
+		86B3067F26CA6DAA00AE62F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF28BE046F636D7EA264225D /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagemnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHBankFundManagemnet;
+			};
+			name = Debug;
+		};
+		86B3068026CA6DAA00AE62F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A16E587CA897A8D906FA20 /* Pods-NHBankFundManagemnet-NHBankFundManagemnetUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W5QL582HR5;
+				INFOPLIST_FILE = NHBankFundManagemnetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NHBankFundManagemnet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B3067626CA6DAA00AE62F0 /* Debug */,
+				86B3067726CA6DAA00AE62F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B3067826CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B3067926CA6DAA00AE62F0 /* Debug */,
+				86B3067A26CA6DAA00AE62F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B3067B26CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B3067C26CA6DAA00AE62F0 /* Debug */,
+				86B3067D26CA6DAA00AE62F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B3067E26CA6DAA00AE62F0 /* Build configuration list for PBXNativeTarget "NHBankFundManagemnetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B3067F26CA6DAA00AE62F0 /* Debug */,
+				86B3068026CA6DAA00AE62F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86B3064626CA6DA900AE62F0 /* Project object */;
+}

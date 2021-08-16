@@ -1,6 +1,7 @@
 # NHBANK Open API 예금주조회 서비스 활용 Application
 
 ## 1. Application 실행 영상
+* 해당 화면에서 나온 계좌번호는 실제 계좌번호가 아닌, Open API 테스트를 위해서 임의로 발급된 계좌번호임을 알립니다.
 
 ![img](https://user-images.githubusercontent.com/77099686/129597655-3fee305a-5500-421d-887f-c2226fbe1913.gif)
 

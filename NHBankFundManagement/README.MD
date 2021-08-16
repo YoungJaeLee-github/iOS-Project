@@ -1,6 +1,11 @@
-# NHBANK Open API 예금주조회 서비스 활용 Application
+## NHBANK Open API 예금주조회 서비스 활용 Application
 
-## NHBANKFundManagemnet 프로젝트 Hierarchy(MVVM)
+### 1. Application 실행 영상
+* 해당 화면에서 나온 계좌번호는 실제 계좌번호가 아닌, Open API 테스트를 위해서 임의로 발급된 계좌번호임을 알립니다.
+
+![logo](https://user-images.githubusercontent.com/77099686/129606615-b624ecee-00ec-4607-bfed-0678f30f10ed.gif)
+
+### 2. NHBANKFundManagemnet 프로젝트 Hierarchy(MVVM)
 <pre>
   .
   ├── NHBankFundManagement 
@@ -31,6 +36,7 @@
   ├── Frameworks
 </pre>
 
+### 3. 참고
 <pre><a href = "https://youngjaelee.tistory.com/4?category=1008934">I. 프로젝트 설명 링크</a></pre>
 
 

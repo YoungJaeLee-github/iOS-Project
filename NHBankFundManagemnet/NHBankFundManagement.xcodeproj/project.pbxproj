@@ -25,6 +25,7 @@
 		86B3069626CA7BA700AE62F0 /* GifLogoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069526CA7BA700AE62F0 /* GifLogoViewModel.swift */; };
 		86B3069A26CA816F00AE62F0 /* GifLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069926CA816F00AE62F0 /* GifLogoView.swift */; };
 		86B3069C26CA82E800AE62F0 /* GifLogoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3069B26CA82E800AE62F0 /* GifLogoService.swift */; };
+		86B306DA26CAA01300AE62F0 /* README.MD in Resources */ = {isa = PBXBuildFile; fileRef = 86B306D926CAA01300AE62F0 /* README.MD */; };
 		EC5313194104C570ABCB07FB /* Pods_NHBankFundManagemnet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4F9DC69023ACFC2A5F617AA /* Pods_NHBankFundManagemnet.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		86B3069526CA7BA700AE62F0 /* GifLogoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoViewModel.swift; sourceTree = "<group>"; };
 		86B3069926CA816F00AE62F0 /* GifLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoView.swift; sourceTree = "<group>"; };
 		86B3069B26CA82E800AE62F0 /* GifLogoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifLogoService.swift; sourceTree = "<group>"; };
+		86B306D926CAA01300AE62F0 /* README.MD */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		A4F9DC69023ACFC2A5F617AA /* Pods_NHBankFundManagemnet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NHBankFundManagemnet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB10C5C9417BC9B45C99B40 /* Pods-NHBankFundManagemnet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnet.debug.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnet/Pods-NHBankFundManagemnet.debug.xcconfig"; sourceTree = "<group>"; };
 		B2E418332A425C2CC3DA7B2F /* Pods-NHBankFundManagemnetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NHBankFundManagemnetTests.release.xcconfig"; path = "Target Support Files/Pods-NHBankFundManagemnetTests/Pods-NHBankFundManagemnetTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,9 +135,10 @@
 		86B3064526CA6DA900AE62F0 = {
 			isa = PBXGroup;
 			children = (
-				86B3065026CA6DA900AE62F0 /* NHBankFundManagemnet */,
-				86B3066726CA6DAA00AE62F0 /* NHBankFundManagemnetTests */,
-				86B3067226CA6DAA00AE62F0 /* NHBankFundManagemnetUITests */,
+				86B306D926CAA01300AE62F0 /* README.MD */,
+				86B3065026CA6DA900AE62F0 /* NHBankFundManagement */,
+				86B3066726CA6DAA00AE62F0 /* NHBankFundManagementTests */,
+				86B3067226CA6DAA00AE62F0 /* NHBankFundManagementUITests */,
 				86B3064F26CA6DA900AE62F0 /* Products */,
 				705C0C4E886CD691FC600C39 /* Pods */,
 				3C3AD981C56647E2DCFA1F38 /* Frameworks */,
@@ -152,7 +155,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86B3065026CA6DA900AE62F0 /* NHBankFundManagemnet */ = {
+		86B3065026CA6DA900AE62F0 /* NHBankFundManagement */ = {
 			isa = PBXGroup;
 			children = (
 				86B3068F26CA7A1F00AE62F0 /* Assets.xcassets */,
@@ -165,25 +168,25 @@
 				86B3068526CA71B100AE62F0 /* ViewControllers */,
 				86B3068726CA71C700AE62F0 /* ViewModels */,
 			);
-			path = NHBankFundManagemnet;
+			path = NHBankFundManagement;
 			sourceTree = "<group>";
 		};
-		86B3066726CA6DAA00AE62F0 /* NHBankFundManagemnetTests */ = {
+		86B3066726CA6DAA00AE62F0 /* NHBankFundManagementTests */ = {
 			isa = PBXGroup;
 			children = (
 				86B3066826CA6DAA00AE62F0 /* NHBankFundManagemnetTests.swift */,
 				86B3066A26CA6DAA00AE62F0 /* Info.plist */,
 			);
-			path = NHBankFundManagemnetTests;
+			path = NHBankFundManagementTests;
 			sourceTree = "<group>";
 		};
-		86B3067226CA6DAA00AE62F0 /* NHBankFundManagemnetUITests */ = {
+		86B3067226CA6DAA00AE62F0 /* NHBankFundManagementUITests */ = {
 			isa = PBXGroup;
 			children = (
 				86B3067326CA6DAA00AE62F0 /* NHBankFundManagemnetUITests.swift */,
 				86B3067526CA6DAA00AE62F0 /* Info.plist */,
 			);
-			path = NHBankFundManagemnetUITests;
+			path = NHBankFundManagementUITests;
 			sourceTree = "<group>";
 		};
 		86B3068326CA717300AE62F0 /* Storyboards */ = {
@@ -323,7 +326,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagemnet" */;
+			buildConfigurationList = 86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagement" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -352,6 +355,7 @@
 				86B3069226CA7A3600AE62F0 /* logo.gif in Resources */,
 				86B3069026CA7A1F00AE62F0 /* Assets.xcassets in Resources */,
 				86B3065926CA6DA900AE62F0 /* Main.storyboard in Resources */,
+				86B306DA26CAA01300AE62F0 /* README.MD in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,7 +676,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -692,7 +696,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagemnet;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.YoungJaeLee.NHBankFundManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -790,7 +794,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagemnet" */ = {
+		86B3064926CA6DA900AE62F0 /* Build configuration list for PBXProject "NHBankFundManagement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86B3067626CA6DAA00AE62F0 /* Debug */,

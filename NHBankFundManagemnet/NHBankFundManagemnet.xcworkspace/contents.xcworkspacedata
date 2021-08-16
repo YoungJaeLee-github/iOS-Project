@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:NHBankFundManagemnet.xcodeproj">
+      location = "group:/Users/iyeongjae/iOS-Project/NHBankFundManagemnet/NHBankFundManagement.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

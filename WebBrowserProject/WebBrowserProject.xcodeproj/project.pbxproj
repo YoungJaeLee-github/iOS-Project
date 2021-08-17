@@ -15,6 +15,7 @@
 		860B195F26CB8EB4005191D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860B195D26CB8EB4005191D1 /* LaunchScreen.storyboard */; };
 		860B196A26CB8EB4005191D1 /* WebBrowserProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B196926CB8EB4005191D1 /* WebBrowserProjectTests.swift */; };
 		860B197526CB8EB4005191D1 /* WebBrowserProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860B197426CB8EB4005191D1 /* WebBrowserProjectUITests.swift */; };
+		864964E326CBB5C7005D03DF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 864964E226CBB5C7005D03DF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		860B197026CB8EB4005191D1 /* WebBrowserProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebBrowserProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		860B197426CB8EB4005191D1 /* WebBrowserProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebBrowserProjectUITests.swift; sourceTree = "<group>"; };
 		860B197626CB8EB4005191D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864964E226CBB5C7005D03DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		860B194626CB8EB3005191D1 = {
 			isa = PBXGroup;
 			children = (
+				864964E226CBB5C7005D03DF /* README.md */,
 				860B195126CB8EB3005191D1 /* WebBrowserProject */,
 				860B196826CB8EB4005191D1 /* WebBrowserProjectTests */,
 				860B197326CB8EB4005191D1 /* WebBrowserProjectUITests */,
@@ -257,6 +260,7 @@
 			files = (
 				860B195F26CB8EB4005191D1 /* LaunchScreen.storyboard in Resources */,
 				860B195C26CB8EB4005191D1 /* Assets.xcassets in Resources */,
+				864964E326CBB5C7005D03DF /* README.md in Resources */,
 				860B195A26CB8EB3005191D1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

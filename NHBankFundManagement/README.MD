@@ -13,22 +13,22 @@
   │      └── Info.plist
   │      └── Delegates
   │      │      └── AppDelegate.swift
-  │                └── SceneDelegate.swift
+  │             └── SceneDelegate.swift
   │      └── Models
   │      │      └── InquireDepositorModel.swift
-  │                └── GifLogoModel.swift
+  │             └── GifLogoModel.swift
   │      └── Services
   │      │      └── InquireDepositorService.swift
-  │                └── GifLogoService.swift
+  │             └── GifLogoService.swift
   │      └── Storyboards
   │      │      └── Main.storyboard
-  │                └── LaunchScreen.storyboard
+  │             └── LaunchScreen.storyboard
   │      └── ViewControllers
   │      │      └── InquireDepositorViewController.swift
-  │                └── GifLogoView.swift
+  │             └── GifLogoView.swift
   │      └── ViewModels
   │      │      └── InquireDepositorViewModel.swift
-  │                └── GifLogoViewModel.swift
+  │             └── GifLogoViewModel.swift
   ├── NHBankFundManagementTests
   ├── NHBankFundManagementUITests
   ├── Products            

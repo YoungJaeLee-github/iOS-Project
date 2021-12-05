@@ -37,7 +37,7 @@
 </pre>
 
 ### 3. 참고
-<pre><a href = "https://youngjaelee.tistory.com/4?category=1008934">I. 프로젝트 설명 링크</a></pre>
+<pre><a href = "https://youngjaelee-github.github.io/ios%20project/personal%20project/2021/12/05/NHBank-OpenAPI-%EC%98%88%EA%B8%88%EC%A3%BC%EC%A1%B0%ED%9A%8C-%EC%84%9C%EB%B9%84%EC%8A%A4-Application.html">I. 프로젝트 설명 링크</a></pre>
 
 
 
